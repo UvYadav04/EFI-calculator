@@ -1,0 +1,135 @@
+/* 
+form input {
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 20px;
+    width: 20px;
+}
+
+input#charges {
+    width: 100px;
+}
+
+input#charge {
+    margin-right: 40px;
+} */
+
+
+body {
+    margin: 0;
+    /* background-color: rgb(254 194 194); */
+    background-image: url(project.png);
+    background-position: cover;
+}
+
+label,
+p {
+    color: white;
+    font-size: 300px;
+}
+
+div.charges {
+    display: flex;
+    width: 40%;
+    margin: 100px auto 0;
+    flex-basis: 400px;
+    background-color: transparent;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+select {
+    /* display: block; */
+    font-size: 25px;
+}
+
+select option {
+    font-size: 20px;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: 900;
+}
+
+button {
+    font-size: 25px;
+}
+
+div.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    /* background-color: red; */
+}
+
+div.name {
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    margin: 0 auto 0;
+}
+
+h1,
+h2 {
+    margin: 0 auto 0;
+    display: block;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+li {
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+@media(max-width : 600px) {
+    div.intro {
+        /* color: red; */
+        /* flex-direction: column; */
+        font-size: 0.5rem;
+
+    }
+
+    div.name {
+        flex-direction: column;
+    }
+
+    div.intro img {
+        width: 50px;
+    }
+
+    div.charges form label {
+        font-size: 1rem;
+        /* font-weight: 600; */
+        /* color: red; */
+    }
+
+    select {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+
+select:hover {
+    background-color: #7dffe5;
+}
+
+option :hover {
+    background-color: #7dffe5;
+}
+
+button:hover {
+    background-color: #ffec60;
+    color: #b84646;
+    /* border: 2px solid rgb(226, 163, 163); */
+}
+
+form label {
+    font-size: 30px;
+}
